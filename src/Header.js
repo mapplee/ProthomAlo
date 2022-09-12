@@ -1,7 +1,10 @@
 
+
+
 function Header (){
+    const d = new Date();
     return (
-        <div>
+        <div className="w-full h-1/6 bg-white">
             <div className="w-full h-1/6 bg-white flex">
                     <div className="w-1/12 h-full flex flex-row">
 
@@ -14,13 +17,13 @@ function Header (){
                     </div>
                     
                     <div class="w-[12%] h-full flex flex-row-reverse mt-5">
-                        <div class="w-[70%] h-full m-2 border">Login</div>
-                        <div class="w-[15%] h-full"><img src="prothom-alo-images/01notifacatioicon.jpeg" class="h-[30%] w-full mt-2"/></div>
+                        <div class="w-[60%] h-[80%] m-2 ml-8 border text-center">Login</div>
+                        <div class="w-[15%] h-full"><img src="prothom-alo-images/01notifacatioicon.jpeg" class="h-[30%] w-full mt-1"/></div>
                     </div>
             </div>
-            <div className="flex flex-row bg-white">
-            <div className="flex m-2 w-6/12">শনিবার, ১০ সেপ্টেম্বর ২০২২</div>
-            <div class="w-6/12 h-full flex flex-row-reverse m-2 text-md">English Edition</div>
+            <div className="flex flex-row bg-white m-2">
+            <div className="flex w-6/12">শনিবার, ১০ সেপ্টেম্বর ২০২২</div>
+            <div class="w-6/12 h-full text-md text-right">English Edition</div>
             </div>
 
         </div>
