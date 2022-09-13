@@ -7,7 +7,8 @@ import Content from './Content';
 import Advertise2 from './Advertise2';
 import Content2 from './Content2';
 import Content3 from './Content3';
-import Row from './Row';
+import Binodan from './Binodan';
+
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       <hr></hr>
       <Content2/>
       <Content3/>
-      <Row/>
+      <Binodan/>
+     
       
      
       

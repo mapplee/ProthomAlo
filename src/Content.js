@@ -8,7 +8,7 @@ import RightSideNews2 from "./RightSideNews2";
 
 function Content() {
     return (
-        <div className='flex w-full h-screen justify-center'>
+        <div className='flex w-full h-full justify-center'>
 
             <News1stFage/>
             <RightSideNews/>
