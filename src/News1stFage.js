@@ -2,8 +2,8 @@
 function News1stFage() {
     return (
         
-    <div className="w-[65%] h-full mb-10 ">
-      <div className='w-full h-[40%] flex flex-row'>
+    <div className="w-[65%] h-full mb-10 p-3 divide-y-2 ">
+      <div className='w-full h-[40%] flex flex-row divide-x-2'>
           
           <div className="w-[32%] h-[90%] p-5">
               <p className="text-3xl hover:text-blue-600 font-bold" >রাজধানীতে দুপুর পর্যন্ত বৃষ্টি হতে পারে</p>
@@ -27,7 +27,7 @@ function News1stFage() {
 
       </div>     
 
-      <div className='w-full h-[30%] flex flex-row'>
+      <div className='w-full h-[30%] flex flex-row p-3 divide-x-2'>
           
           <div className="w-[32%] h-[90%] p-5">
               <p className="text-2xl hover:text-blue-600 font-bold" >এ বছরের এইচএসসি পরীক্ষা ৬ নভেম্বর শুরু</p>
@@ -51,7 +51,7 @@ function News1stFage() {
 
       </div> 
 
-      <div className='w-full h-[25%] flex flex-row'>
+      <div className='w-full h-[25%] flex flex-row divide-x-2'>
           
             <div className="w-[32%] h-[90%] flex mt-5">
                 <div className="w-[60%] p-2"><p className="text-2xl font-bold">ছাত্রটিকে রাস্তায় ফেলে পালিয়ে যান চালক, গাড়িটি এক রাজস্ব কর্মকর্তার</p>
@@ -76,7 +76,7 @@ function News1stFage() {
 
       </div>
 
-      <div className='w-full h-[20%] flex flex-row divide-y-2 '>
+      <div className='w-full h-[20%] flex flex-row divide-x-2'>
           
             <div className="w-[32%] h-[90%] flex mt-5">
                 <div className="w-[60%] p-2"><p className="text-2xl font-bold">আইসিসির মাসের সেরা সিকান্দার রাজা</p>

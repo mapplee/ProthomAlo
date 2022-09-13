@@ -1,8 +1,8 @@
-function RightSideNews2 (){
+function RightSideNews3 (){
     return (
-        <div className='w-3/12 h-full divide-y-2'>
+        <div className='w-3/12 h-[80%] divide-y-2 mt-4 bg-green-200'>
             <div className="w-full h-[40%] p-5">
-                <img src = "/prothom-alo-images/78873.gif" className="w-full h-full"/>
+                <img src = "/prothom-alo-images/15885270435632840151.gif" className="w-full h-[90%] mt-12 p-3"/>
             </div>
             
 
@@ -36,4 +36,4 @@ function RightSideNews2 (){
         </div>
     );
 }
-export default RightSideNews2;
+export default RightSideNews3;

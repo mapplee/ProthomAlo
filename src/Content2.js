@@ -1,17 +1,13 @@
-
-import News1stFage from "./News1stFage";
-import RightSideNews from "./RightSideNews";
 import News2ndFage from "./News2ndFage";
 import RightSideNews2 from "./RightSideNews2";
 
 
-
-function Content() {
+function Content2() {
     return (
         <div className='flex w-full h-screen justify-center'>
 
-            <News1stFage/>
-            <RightSideNews/>
+            <News2ndFage/>
+            <RightSideNews2/>
             <hr></hr>
             
 
@@ -20,4 +16,4 @@ function Content() {
     );
 }
 
-export default Content;
+export default Content2;
