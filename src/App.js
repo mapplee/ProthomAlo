@@ -8,6 +8,7 @@ import Advertise2 from './Advertise2';
 import Content2 from './Content2';
 import Content3 from './Content3';
 import Binodan from './Binodan';
+import JibonJapon from './JibonJapon';
 
 
 
@@ -26,6 +27,9 @@ function App() {
       <Content2/>
       <Content3/>
       <Binodan/>
+      <JibonJapon/>
+      <Advertise clip = "/prothom-alo-images/6637006609207176883.jpeg"/>
+      <Navbar2/>
      
       
      
