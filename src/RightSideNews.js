@@ -7,8 +7,8 @@ function RightSideNews (){
             </div>
             
             <div className="w-full h-[40%] p-5">
-                <img src = "/prothom-alo-images/prothom.webp" className="w-full h-[70%]"/>
-                <p className="text-2xl font-bold mt-2">বলিউডের দুর্দিনে তিন দিনে কত আয় করল ‘ব্রহ্মাস্ত্র’</p>
+                <img src = "/prothom-alo-images/895603.webp" className="w-full h-[70%]"/>
+                <p className="text-2xl font-bold mt-2">সাবেক সংসদ সদস্যের মাইক্রোফোন কেড়ে নিলেন বর্তমান সংসদ সদস্য</p>
                 <p className="mt-5 text-gray-600">২ ঘণ্টা আগে</p>
             </div>
 

@@ -1,4 +1,5 @@
-function Row3rd (){
+
+function News2ndFage (){
     return (
 <div className='w-[65%] h-[40%] bg-orange-300 flex flex-row'>
           
@@ -25,4 +26,4 @@ function Row3rd (){
       </div>
     );
 }
-export default Row3rd;
+export default News2ndFage;

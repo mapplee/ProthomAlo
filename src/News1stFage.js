@@ -1,8 +1,8 @@
 
-function News1stHeading() {
+function News1stFage() {
     return (
         
-    <div className="w-[65%] h-screen ">
+    <div className="w-[65%] h-full mb-10 ">
       <div className='w-full h-[40%] flex flex-row'>
           
           <div className="w-[32%] h-[90%] p-5">
@@ -76,7 +76,7 @@ function News1stHeading() {
 
       </div>
 
-      <div className='w-full h-[20%] flex flex-row'>
+      <div className='w-full h-[20%] flex flex-row divide-y-2 '>
           
             <div className="w-[32%] h-[90%] flex mt-5">
                 <div className="w-[60%] p-2"><p className="text-2xl font-bold">আইসিসির মাসের সেরা সিকান্দার রাজা</p>
@@ -87,7 +87,7 @@ function News1stHeading() {
           
             <div className="w-[35%] h-[90%] flex mt-5 ">
                 <div className="w-[60%] p-2"><p className="text-2xl font-bold ">সংসদ সদস্য পঙ্কজ দেবনাথকে আওয়ামী লীগের সব পদ থেকে অব্যাহতি</p>
-                <p className="mt-7 font-bold text-gray-600">৩৭ মিনিট আগে</p></div>
+                <p className="mt-4 font-bold text-gray-600">৩৭ মিনিট আগে</p></div>
                 <div className="w-[40%] p-2"><img src = "/prothom-alo-images/pr3.webp" className="w-full h-[50%]"/></div>
             </div>
                 
@@ -105,4 +105,4 @@ function News1stHeading() {
     );
 }
 
-export default News1stHeading;
+export default News1stFage;

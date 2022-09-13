@@ -2,8 +2,9 @@
 function Advertise2({clip}) {
     return (
         
-        <div className='w-full h-[10%] m-2 flex justify-center bg-white'>
-            <img src ={clip} className = "w-7/12 h-[10%] p-2 "/>
+        <div className='w-full h-2/6 flex justify-center mt-40 mb-2 divide-y-reverse'>
+            <img src ={clip} className = "w-8/12 h-[80%]"/>
+
         </div>
     );
 }
