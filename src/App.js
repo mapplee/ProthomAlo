@@ -29,7 +29,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/2nd" element={<FullNews/>} />
+        <Route path="/:id" element={<FullNews/>} />
         
       </Routes>
      
