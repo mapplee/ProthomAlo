@@ -9,27 +9,29 @@ import Content2 from './Content2';
 import Content3 from './Content3';
 import Binodan from './Binodan';
 import JibonJapon from './JibonJapon';
+import { Routes, Route, Link } from "react-router-dom";
+import FullNews from './FullNews';
+import Home from './Home';
 
 
 
 function App() {
   return (
     <div className="w-full h-full justify-center">
+      
       <Header/>
       <hr></hr>
       <Navbar2 />
       <hr></hr>
       <Advertise clip = "/prothom-alo-images/cityGrup.jpeg"/>
       <hr></hr>
-      <Content/>
-      <Advertise2 clip = "/prothom-alo-images/6825.gif"/>
-      <hr></hr>
-      <Content2/>
-      <Content3/>
-      <Binodan/>
-      <JibonJapon/>
-      <Advertise clip = "/prothom-alo-images/6637006609207176883.jpeg"/>
-      <Navbar2/>
+      
+      
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/2nd" element={<FullNews/>} />
+        
+      </Routes>
      
       
      
