@@ -81,21 +81,21 @@ function News1stFage() {
             <div className="w-[32%] h-[90%] flex mt-5">
                 <div className="w-[60%] p-2"><p className="text-2xl font-bold">আইসিসির মাসের সেরা সিকান্দার রাজা</p>
                 <p className="mt-7 font-bold text-gray-600">৩৭ মিনিট আগে</p></div>
-                <div className="w-[40%] p-2"><img src = "/prothom-alo-images/prot3.webp" className="w-full h-[40%]"/></div>
+                <div className="w-[40%] p-2"><img src = "/prothom-alo-images/prot3.webp" className="w-full h-[70%]"/></div>
             </div>
                 
           
             <div className="w-[35%] h-[90%] flex mt-5 ">
                 <div className="w-[60%] p-2"><p className="text-2xl font-bold ">সংসদ সদস্য পঙ্কজ দেবনাথকে আওয়ামী লীগের সব পদ থেকে অব্যাহতি</p>
                 <p className="mt-4 font-bold text-gray-600">৩৭ মিনিট আগে</p></div>
-                <div className="w-[40%] p-2"><img src = "/prothom-alo-images/pr3.webp" className="w-full h-[50%]"/></div>
+                <div className="w-[40%] p-2"><img src = "/prothom-alo-images/pr3.webp" className="w-full h-[70%]"/></div>
             </div>
                 
           
             <div className="w-[33%] h-[90%] flex mt-5">
                 <div className="w-[60%] p-2"><p className="text-2xl font-bold ">বুমরাকে নিয়েই বিশ্বকাপে ভারতের দল</p>
                 <p className="mt-7 font-bold text-gray-600">৩৭ মিনিট আগে</p></div>
-                <div className="w-[40%] p-2"><img src = "/prothom-alo-images/protho-bangla.webp" className="w-full h-[50%]"/></div>
+                <div className="w-[40%] p-2"><img src = "/prothom-alo-images/protho-bangla.webp" className="w-full h-[70%]"/></div>
             </div>
 
       </div>
