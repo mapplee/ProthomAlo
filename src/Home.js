@@ -1,4 +1,3 @@
-import Header from "./Header";
 import Content from "./Content";
 import Content2 from "./Content2";
 import Content3 from "./Content3";

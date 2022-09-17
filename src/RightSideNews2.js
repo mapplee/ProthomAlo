@@ -1,5 +1,6 @@
 function RightSideNews2 (){
     return (
+        
         <div className='w-3/12 h-full divide-y-2'>
             <div className="w-full h-[40%] p-5">
                 <img src = "/prothom-alo-images/78873.gif" className="w-full h-full"/>

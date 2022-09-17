@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import japon from "./data";
+import {japon} from "./data";
 
-function Jibon ({image, heading, news, ptime, id}){
+function Jibon ({image, heading, news, fnews, ptime, ftime, id}){
     
     return (
         <Link to = {"/" + id} className="w-[25%] h-full p-5">
@@ -18,7 +18,7 @@ function Jibon ({image, heading, news, ptime, id}){
 }
 
 function JibonJapon (){
-    const jibon_japon = japon.map((t, i) => <Jibon id={i} image ={t.image} heading ={t.heading} news = {t.news} ptime = {t.ptime}/>);
+    const jibon_japon = japon.map((t, i) => <Jibon id={i} image ={t.image} heading ={t.heading} news = {t.news} fnews = {t.fnews} ptime = {t.ptime} ftime = {t.ftime}/>);
     return (
         
         <div className="w-full h-full mt-1 ">

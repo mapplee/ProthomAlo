@@ -1,3 +1,4 @@
+import { binodon, binodon2 } from "./data";
 
 const p_time = "mt-1 text-gray-600 p-2";
 
@@ -29,17 +30,7 @@ function Anoda2 ({image, heading, news, ptime}){
     );
 }
 
-const binodon = [
-    {image: "/prothom-alo-images/dollar.webp",    heading: "এমি জিতল কে বা কারা, দেখে নিন এক নজরে",            ptime: "৫ ঘণ্টা আগে"},
-    {image: "/prothom-alo-images/Russian.webp",   heading: "বিশ্বখ্যাত পরিচালক জ্যঁ লুক গদার আর নেই",                ptime: "৫ ঘণ্টা আগে"},
-    {image: "/prothom-alo-images/AB_1436.webp",   heading: "এমিতে এশিয়ার অভিনেতার বাজিমাত, কৃষ্ণাঙ্গ অভিনেত্রীর রেকর্ড", ptime: "৫ ঘণ্টা আগে"},
-    ];
 
-const binodon2 = [
-    {image: "/prothom-alo-images/Untitled_1.webp", heading: "বলিউডে বিদেশিদের দাপটে কাজ হারাচ্ছেন ভারতীয়রা",  ptime: "৫ ঘণ্টা আগে"},
-    {image: "/prothom-alo-images/1479.webp",       heading: "দেহরক্ষী নিয়ে শুটিং",                          ptime: "৫ ঘণ্টা আগে"},
-    {image: "/prothom-alo-images/HUMBNAIL.webp",   heading: "‘অভিনয় ছাড়ছি না, কখনোই ছাড়ব না’",           ptime: "৫ ঘণ্টা আগে"},
-    ];
 
 
 function Binodan (){
